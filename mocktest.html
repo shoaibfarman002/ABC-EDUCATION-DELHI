@@ -1,0 +1,864 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Free Mock Test | ABC Institute of Science & Commerce</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mocktest.css" />
+  </head>
+  <body>
+    <!-- ════ NAVBAR ════ -->
+    <nav id="navbar">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-badge">ABC</div>
+        <div>
+          <span class="abbr">ABC INSTITUTE</span>
+          <span class="full">OF SCIENCE &amp; COMMERCE</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="counseling.html">Career Counseling</a></li>
+        <li><a href="mocktest.html" class="active">Mock Test</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="#chooseMode" class="nav-cta">Start Free Test</a>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="counseling.html">Career Counseling</a>
+      <a href="mocktest.html">Mock Test</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="#chooseMode" class="link-gold">Start Free Test →</a>
+    </div>
+
+    <!-- ════ MARQUEE ════ -->
+    <div class="marquee-bar">
+      <div class="marquee-inner">
+        <span>🆓 FREE Mock Test — Online &amp; Offline both available</span>
+        <span
+          >📝 10,000+ Questions with Solutions — JEE | NEET | CUET | JMI | AMU |
+          DU</span
+        >
+        <span>✅ Open to ALL students — No Registration needed for Online</span>
+        <span>📞 8076302065 | 💬 WhatsApp: 8092870350</span>
+      </div>
+    </div>
+
+    <!-- ════ HERO ════ -->
+    <div class="mock-hero">
+      <div class="mock-hero-inner">
+        <div class="breadcrumb" class="breadcrumb">
+          <a href="index.html" class="breadcrumb-link">Home</a>
+          <span class="breadcrumb-sep">›</span>
+          <span class="breadcrumb-current">Free Mock Test</span>
+        </div>
+        <div class="free-badge">🆓 Absolutely Free</div>
+        <h1>
+          <span class="gold">FREE</span> Entrance<br /><span class="red"
+            >Mock Test</span
+          >
+        </h1>
+        <p>
+          Choose <strong>Online Mode</strong> to start instantly on screen with
+          live timer &amp; results, or <strong>Offline Mode</strong> to register
+          for a paper-based test at our institute — both 100% FREE!
+        </p>
+      </div>
+    </div>
+
+    <!-- ════ STATS BAR ════ -->
+    <div class="stats-bar">
+      <div class="sbar-item">
+        <div class="sbar-num">10,000+</div>
+        <div class="sbar-lbl">Questions</div>
+      </div>
+      <div class="sbar-item">
+        <div class="sbar-num">2</div>
+        <div class="sbar-lbl">Test Modes</div>
+      </div>
+      <div class="sbar-item">
+        <div class="sbar-num">8+</div>
+        <div class="sbar-lbl">Exams Covered</div>
+      </div>
+      <div class="sbar-item">
+        <div class="sbar-num">100%</div>
+        <div class="sbar-lbl">Free</div>
+      </div>
+      <div class="sbar-item">
+        <div class="sbar-num">Weekly</div>
+        <div class="sbar-lbl">Schedule</div>
+      </div>
+    </div>
+
+    <!-- ════ STEP 1: CHOOSE MODE ════ -->
+    <section class="step-header" id="chooseMode">
+      <div class="step-inner">
+        <div class="section-label reveal">Step 1 — Choose</div>
+        <h2 class="section-title reveal">Select Your Test Mode</h2>
+        <div class="section-divider reveal"></div>
+        <p class="panel-intro" class="reveal">
+          Click on the mode you want — Online to start immediately, Offline to
+          register for paper test at our institute.
+        </p>
+        <div class="mode-cards">
+          <!-- ONLINE CARD -->
+          <div class="mode-card online-card reveal" id="onlineCard">
+            <div class="mode-tick">✓</div>
+            <div class="mode-badge online">🌐 Online Mode</div>
+            <span class="mode-icon">💻</span>
+            <h3>Online Mock Test</h3>
+            <p>
+              Start right now on your screen. Pick your exam, attempt timed
+              questions, get instant results and explanations for every answer!
+            </p>
+            <ul class="mode-features">
+              <li>No registration needed — start instantly</li>
+              <li>Live countdown timer</li>
+              <li>Instant score &amp; result analysis</li>
+              <li>Explanation shown for every answer</li>
+              <li>Available 24/7 on any device</li>
+            </ul>
+            <button class="mode-btn" id="btnOnline">Start Online Test →</button>
+          </div>
+
+          <!-- OFFLINE CARD -->
+          <div class="mode-card offline-card reveal" id="offlineCard">
+            <div class="mode-tick">✓</div>
+            <div class="mode-badge offline">📄 Offline Mode</div>
+            <span class="mode-icon">📝</span>
+            <h3>Offline Paper Test</h3>
+            <p>
+              Come to our institute and attempt a real paper-based test under
+              actual exam conditions. Solution class is held right after every
+              test!
+            </p>
+            <ul class="mode-features">
+              <li>Real paper-based OMR/written format</li>
+              <li>Actual exam conditions &amp; environment</li>
+              <li>Solution class included after test</li>
+              <li>Performance rank among students</li>
+              <li>Every Saturday &amp; Sunday</li>
+            </ul>
+            <button class="mode-btn" id="btnOffline">
+              Register for Paper Test →
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════ ONLINE TEST PANEL ════ -->
+    <section class="test-panel online-panel" id="onlinePanel">
+      <div class="panel-inner">
+        <!-- Step 2: Choose exam -->
+        <div class="section-label" class="label-light">Step 2 — Online</div>
+        <h2 class="section-title white">
+          Choose Your <span class="link-gold">Entrance Exam</span>
+        </h2>
+        <div class="section-divider gold"></div>
+        <p class="panel-intro-light">
+          Click on the exam you want to practise — the mock test will open
+          immediately below.
+        </p>
+
+        <div class="exam-selector" id="examSelector">
+          <div class="exam-chip" data-exam="jee">
+            <span class="ec-icon">⚙️</span>
+            <span class="ec-name">JEE Mains</span>
+            <span class="ec-desc">Physics, Chem, Maths</span>
+          </div>
+          <div class="exam-chip" data-exam="neet">
+            <span class="ec-icon">🩺</span>
+            <span class="ec-name">NEET UG</span>
+            <span class="ec-desc">Bio, Physics, Chem</span>
+          </div>
+          <div class="exam-chip" data-exam="cuet">
+            <span class="ec-icon">🏛️</span>
+            <span class="ec-name">CUET UG</span>
+            <span class="ec-desc">Domain + General</span>
+          </div>
+          <div class="exam-chip" data-exam="diploma">
+            <span class="ec-icon">🔧</span>
+            <span class="ec-name">Diploma</span>
+            <span class="ec-desc">Maths, Physics, Chem</span>
+          </div>
+          <div class="exam-chip" data-exam="jmi">
+            <span class="ec-icon">🕌</span>
+            <span class="ec-name">JMI Entrance</span>
+            <span class="ec-desc">Class 6 / 9 / 11</span>
+          </div>
+          <div class="exam-chip" data-exam="amu">
+            <span class="ec-icon">🎓</span>
+            <span class="ec-name">AMU Entrance</span>
+            <span class="ec-desc">Class 6 / 9 / UG</span>
+          </div>
+          <div class="exam-chip" data-exam="du">
+            <span class="ec-icon">📚</span>
+            <span class="ec-name">DU / IPU</span>
+            <span class="ec-desc">UG Entrance</span>
+          </div>
+          <div class="exam-chip" data-exam="gk">
+            <span class="ec-icon">🌍</span>
+            <span class="ec-name">General Knowledge</span>
+            <span class="ec-desc">GK + Current Affairs</span>
+          </div>
+          <div class="exam-chip" data-exam="maths">
+            <span class="ec-icon">📐</span>
+            <span class="ec-name">Mathematics</span>
+            <span class="ec-desc">Class 9–12</span>
+          </div>
+        </div>
+
+        <!-- Live test box (hidden until exam selected) -->
+        <div class="live-test-box" id="liveTestBox">
+          <!-- Test top bar -->
+          <div class="test-topbar">
+            <div>
+              <h3 id="testTitle">Mock Test</h3>
+              <div class="test-info">
+                <span>Questions: <strong id="testQCount">10</strong></span>
+                <span>Marking: <strong id="testMarks">+4 / −1</strong></span>
+                <span>Mode: <strong>Online</strong></span>
+              </div>
+            </div>
+            <div class="test-timer" id="testTimer">30:00</div>
+          </div>
+
+          <!-- Question area -->
+          <div class="q-area" id="questionArea">
+            <div class="progress-wrap">
+              <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="q-meta">
+              <div class="q-number" id="qNumber">Question 1 of 10</div>
+              <div class="q-marks" id="qMarksInfo">+4 Correct | −1 Wrong</div>
+            </div>
+            <div class="q-text" id="qText">Loading question...</div>
+            <div class="q-options" id="qOptions"></div>
+            <div class="q-actions">
+              <button class="btn-explain" id="btnExplain">
+                💡 Show Explanation
+              </button>
+              <button class="btn-next" id="btnNext">Next Question →</button>
+            </div>
+            <div class="q-explanation" id="qExplanation">
+              <p id="qExplText"></p>
+            </div>
+          </div>
+
+          <!-- Result box -->
+          <div class="result-box" id="resultBox">
+            <div class="result-score" id="resultScore">0</div>
+            <div class="result-label">Your Score</div>
+            <div class="result-stats">
+              <div class="rs-item">
+                <div class="rs-num" id="rsCorrect" class="text-correct">0</div>
+                <div class="rs-lbl">Correct</div>
+              </div>
+              <div class="rs-item">
+                <div class="rs-num" id="rsWrong" class="text-wrong">0</div>
+                <div class="rs-lbl">Wrong</div>
+              </div>
+              <div class="rs-item">
+                <div class="rs-num" id="rsSkipped" class="link-gold">0</div>
+                <div class="rs-lbl">Skipped</div>
+              </div>
+            </div>
+            <p class="result-msg" id="resultMsg"></p>
+            <div class="result-actions">
+              <button class="btn-retry" id="btnRetry">🔄 Try Again</button>
+              <button class="btn-share-wa" id="btnShareWa">
+                <svg viewBox="0 0 24 24">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                  />
+                </svg>
+                Share Result on WhatsApp
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- end live-test-box -->
+      </div>
+      <!-- end panel-inner -->
+    </section>
+
+    <!-- ════ OFFLINE TEST PANEL ════ -->
+    <section class="test-panel offline-panel" id="offlinePanel">
+      <div class="panel-inner">
+        <div class="section-label" class="text-wrong">Step 2 — Offline</div>
+        <h2 class="section-title">
+          Select Your <span class="text-wrong">Exam</span>
+        </h2>
+        <div class="section-divider divider-red"></div>
+        <p class="offline-intro">
+          Click the exam you want to sit. A registration form will appear below
+          — fill it and your details will be sent directly to our WhatsApp.
+        </p>
+
+        <!-- Exam grid -->
+        <div class="offline-exam-grid" id="offlineExamGrid">
+          <div class="off-exam-card" data-exam="JEE Mains">
+            <span class="oec-icon">⚙️</span>
+            <h3>JEE Mains</h3>
+            <p>Physics, Chemistry, Maths</p>
+          </div>
+          <div class="off-exam-card" data-exam="NEET UG">
+            <span class="oec-icon">🩺</span>
+            <h3>NEET UG</h3>
+            <p>Biology, Physics, Chemistry</p>
+          </div>
+          <div class="off-exam-card" data-exam="CUET UG">
+            <span class="oec-icon">🏛️</span>
+            <h3>CUET UG</h3>
+            <p>Domain + General Test</p>
+          </div>
+          <div class="off-exam-card" data-exam="Diploma">
+            <span class="oec-icon">🔧</span>
+            <h3>Diploma</h3>
+            <p>Domain + General Test</p>
+          </div>
+          <div class="off-exam-card" data-exam="JMI Entrance">
+            <span class="oec-icon">🕌</span>
+            <h3>JMI Entrance</h3>
+            <p>Class 6 / 9 / 11 / UG</p>
+          </div>
+          <div class="off-exam-card" data-exam="AMU Entrance">
+            <span class="oec-icon">🎓</span>
+            <h3>AMU Entrance</h3>
+            <p>Class 6 / 9 / UG</p>
+          </div>
+          <div class="off-exam-card" data-exam="DU / IPU">
+            <span class="oec-icon">📚</span>
+            <h3>DU / IPU</h3>
+            <p>UG Entrance Exam</p>
+          </div>
+          <div class="off-exam-card" data-exam="DSEU / Hamdard">
+            <span class="oec-icon">🔧</span>
+            <h3>DSEU / Hamdard</h3>
+            <p>Skill &amp; Pharmacy</p>
+          </div>
+          <div class="off-exam-card" data-exam="General Knowledge">
+            <span class="oec-icon">🌍</span>
+            <h3>General Knowledge</h3>
+            <p>GK + Current Affairs</p>
+          </div>
+          <div class="off-exam-card" data-exam="Mathematics">
+            <span class="oec-icon">📐</span>
+            <h3>Mathematics</h3>
+            <p>Class 9th – 12th</p>
+          </div>
+        </div>
+
+        <!-- Registration form (shown after exam click) -->
+        <div class="off-reg-section" id="offRegSection">
+          <div class="off-reg-form">
+            <h3>📝 Register for Paper Test</h3>
+            <p class="form-sub">
+              Selected Exam: <strong id="selectedExamLabel">—</strong><br />
+              Fill your details below — sent directly to our WhatsApp.
+            </p>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Student Name *</label>
+                <input type="text" id="off_name" placeholder="Full Name" />
+              </div>
+              <div class="form-group">
+                <label>Mobile Number *</label>
+                <input
+                  type="tel"
+                  id="off_phone"
+                  placeholder="10-digit number"
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Current Class</label>
+                <select id="off_class">
+                  <option value="">Select Class</option>
+                  <option>Class 5</option>
+                  <option>Class 6</option>
+                  <option>Class 7</option>
+                  <option>Class 8</option>
+                  <option>Class 9</option>
+                  <option>Class 10</option>
+                  <option>Class 11</option>
+                  <option>Class 12</option>
+                  <option>Dropper / 12th Passed</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Preferred Test Date</label>
+                <select id="off_date">
+                  <option value="">Select Date</option>
+                  <option>This Saturday</option>
+                  <option>This Sunday</option>
+                  <option>Next Saturday</option>
+                  <option>Next Sunday</option>
+                  <option>Any Weekend</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Parent / Guardian Name</label>
+              <input
+                type="text"
+                id="off_parent"
+                placeholder="Parent or Guardian Name"
+              />
+            </div>
+
+            <button class="btn-reg-submit" id="btnOffRegSubmit">
+              📲 Send Registration to WhatsApp
+            </button>
+            <div class="reg-success" id="regSuccess">
+              ✅ Opening WhatsApp — we will confirm your slot shortly!
+            </div>
+
+            <!--<div class="reg-or">— OR contact us directly —</div>
+
+            <button class="btn-wa-direct" id="btnWaDirect">
+              <svg viewBox="0 0 24 24">-->
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                />
+              </svg>
+              <!--WhatsApp Us: 8092870350-->
+            </button>
+          </div>
+        </div>
+
+        <!-- Test schedule info -->
+        <div class="schedule-boxes">
+          <div class="sch-box blue">
+            <h4>📅 Test Schedule</h4>
+            <p>
+              Saturday: 9 AM – 12 PM &amp; 2 PM – 5 PM<br />
+              Sunday: 9 AM – 12 PM<br />
+              Solution class after every test<br />
+              <strong class="link-gold">Fees: Absolutely FREE</strong>
+            </p>
+          </div>
+          <div class="sch-box red">
+            <h4>📍 Test Venue</h4>
+            <address>
+              ABC Institute of Science &amp; Commerce<br />
+              161/25, Jogabai, Near Abidin Medical Centre<br />
+              Jamia Nagar, New Delhi – 110025<br />
+              <a href="tel:8076302065">📞 8076302065</a>
+            </address>
+          </div>
+        </div>
+      </div>
+      <!-- end panel-inner -->
+    </section>
+
+    <!-- ════ QUESTION PAPERS & SOLUTIONS ════ -->
+    <section class="papers-section" id="papers">
+      <div class="section-inner">
+        <div class="section-label reveal">Download</div>
+        <h2 class="section-title reveal">Question Papers &amp; Solutions</h2>
+        <div class="section-divider reveal"></div>
+        <p class="papers-intro reveal">
+          Download previous mock test papers and full solutions. New papers
+          added every week after the weekend test!
+        </p>
+        <div class="papers-grid">
+          <div class="paper-card reveal">
+            <div class="paper-head">
+              <div class="paper-icon">⚙️</div>
+              <div>
+                <h3>JEE Mains</h3>
+                <div class="psub">Mock Test #1 — 2025</div>
+              </div>
+            </div>
+            <div class="paper-body">
+              <div class="paper-meta">
+                <span class="paper-tag">Physics</span>
+                <span class="paper-tag">Chemistry</span>
+                <span class="paper-tag">Maths</span>
+                <span class="paper-tag">90 Qs</span>
+              </div>
+              <p class="paper-desc">
+                Full syllabus JEE Mains pattern — 30 questions each from
+                Physics, Chemistry and Mathematics. Marking: +4 / −1.
+              </p>
+              <div class="paper-btns">
+                <button
+                  class="btn-dl"
+                  data-paper="JEE Mains Mock Test 1 — Question Paper"
+                >
+                  📄 Question Paper
+                </button>
+                <button
+                  class="btn-dl sol"
+                  data-paper="JEE Mains Mock Test 1 — Solution Paper"
+                >
+                  ✅ Solutions
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="paper-card red-top reveal">
+            <div class="paper-head">
+              <div class="paper-icon">🩺</div>
+              <div>
+                <h3>NEET UG</h3>
+                <div class="psub">Mock Test #1 — 2025</div>
+              </div>
+            </div>
+            <div class="paper-body">
+              <div class="paper-meta">
+                <span class="paper-tag">Biology</span>
+                <span class="paper-tag">Physics</span>
+                <span class="paper-tag">Chemistry</span>
+                <span class="paper-tag">180 Qs</span>
+              </div>
+              <p class="paper-desc">
+                NEET pattern — 90 Biology + 45 Physics + 45 Chemistry.
+                NCERT-based MCQs with detailed solutions.
+              </p>
+              <div class="paper-btns">
+                <button
+                  class="btn-dl"
+                  data-paper="NEET UG Mock Test 1 — Question Paper"
+                >
+                  📄 Question Paper
+                </button>
+                <button
+                  class="btn-dl sol"
+                  data-paper="NEET UG Mock Test 1 — Solution Paper"
+                >
+                  ✅ Solutions
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="paper-card gold-top reveal">
+            <div class="paper-head">
+              <div class="paper-icon">🏛️</div>
+              <div>
+                <h3>CUET UG</h3>
+                <div class="psub">Mock Test #1 — 2025</div>
+              </div>
+            </div>
+            <div class="paper-body">
+              <div class="paper-meta">
+                <span class="paper-tag">Domain Subject</span>
+                <span class="paper-tag">General Test</span>
+                <span class="paper-tag">75 Qs</span>
+              </div>
+              <p class="paper-desc">
+                CUET UG pattern — 50 domain subject + 25 general test questions.
+                All streams covered.
+              </p>
+              <div class="paper-btns">
+                <button
+                  class="btn-dl"
+                  data-paper="CUET UG Mock Test 1 — Question Paper"
+                >
+                  📄 Question Paper
+                </button>
+                <button
+                  class="btn-dl sol"
+                  data-paper="CUET UG Mock Test 1 — Solution Paper"
+                >
+                  ✅ Solutions
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="paper-card green-top reveal">
+            <div class="paper-head">
+              <div class="paper-icon">🕌</div>
+              <div>
+                <h3>JMI Entrance</h3>
+                <div class="psub">Class 6 Mock — 2025</div>
+              </div>
+            </div>
+            <div class="paper-body">
+              <div class="paper-meta">
+                <span class="paper-tag">Maths</span>
+                <span class="paper-tag">Science</span>
+                <span class="paper-tag">English</span>
+                <span class="paper-tag">Urdu</span>
+              </div>
+              <p class="paper-desc">
+                JMI Class 6 entrance pattern — all subjects covered with
+                solution key based on latest JMI pattern.
+              </p>
+              <div class="paper-btns">
+                <button
+                  class="btn-dl"
+                  data-paper="JMI Class 6 Mock Test — Question Paper"
+                >
+                  📄 Question Paper
+                </button>
+                <button
+                  class="btn-dl sol"
+                  data-paper="JMI Class 6 Mock Test — Solution Paper"
+                >
+                  ✅ Solutions
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="paper-card reveal">
+            <div class="paper-head">
+              <div class="paper-icon">🎓</div>
+              <div>
+                <h3>AMU Entrance</h3>
+                <div class="psub">Class 9 Mock — 2025</div>
+              </div>
+            </div>
+            <div class="paper-body">
+              <div class="paper-meta">
+                <span class="paper-tag">Maths</span>
+                <span class="paper-tag">Science</span>
+                <span class="paper-tag">English</span>
+                <span class="paper-tag">GK</span>
+              </div>
+              <p class="paper-desc">
+                AMU Class 9 entrance — Maths, Science, English, Urdu, GK with
+                full AMU marking scheme solution.
+              </p>
+              <div class="paper-btns">
+                <button
+                  class="btn-dl"
+                  data-paper="AMU Class 9 Mock Test — Question Paper"
+                >
+                  📄 Question Paper
+                </button>
+                <button
+                  class="btn-dl sol"
+                  data-paper="AMU Class 9 Mock Test — Solution Paper"
+                >
+                  ✅ Solutions
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="paper-card red-top reveal">
+            <div class="paper-head">
+              <div class="paper-icon">📚</div>
+              <div>
+                <h3>DU / CUET Arts</h3>
+                <div class="psub">Mock Test #1 — 2025</div>
+              </div>
+            </div>
+            <div class="paper-body">
+              <div class="paper-meta">
+                <span class="paper-tag">History</span>
+                <span class="paper-tag">Political Sc.</span>
+                <span class="paper-tag">English</span>
+                <span class="paper-tag">GK</span>
+              </div>
+              <p class="paper-desc">
+                DU / CUET Arts stream mock — History, Political Science,
+                English, GK with full answer key.
+              </p>
+              <div class="paper-btns">
+                <button
+                  class="btn-dl"
+                  data-paper="DU CUET Arts Mock Test — Question Paper"
+                >
+                  📄 Question Paper
+                </button>
+                <button
+                  class="btn-dl sol"
+                  data-paper="DU CUET Arts Mock Test — Solution Paper"
+                >
+                  ✅ Solutions
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- New papers notice -->
+        <div class="papers-notice reveal">
+          <div class="notice-icon">📢</div>
+          <div class="notice-body">
+            <div class="notice-title">New Papers Added Every Week!</div>
+            <div class="notice-text">
+              After every weekend test, question papers &amp; solutions are
+              uploaded here. WhatsApp us to get papers directly.
+            </div>
+          </div>
+          <a
+            href="https://wa.me/918092870350?text=Please send me the latest mock test papers and solutions"
+            target="_blank"
+            class="btn-wa-notice"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+              />
+            </svg>
+            Get Papers on WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════ UPLOAD SECTION (Admin) ════ -->
+    <section class="upload-section" id="uploadSection">
+      <div class="section-inner">
+        <div class="section-label label-light text-center">
+          For ABC Institute Staff
+        </div>
+        <h2 class="section-title white reveal text-center">
+          Upload Question Paper &amp; <span class="link-gold">Solutions</span>
+        </h2>
+        <div class="section-divider gold divider-center divider-mb-1"></div>
+        <p class="upload-intro reveal">
+          Admin panel — upload new test papers and solution PDFs
+        </p>
+        <div class="upload-box reveal">
+          <h3>📤 Upload New Paper</h3>
+          <p>
+            Upload question paper PDF and solution PDF. File details will be
+            sent to WhatsApp admin for publishing.
+          </p>
+          <div class="upload-grid">
+            <div class="upload-group">
+              <label>Exam Name *</label>
+              <select id="up_exam">
+                <option value="">Select Exam</option>
+                <option>JEE Mains</option>
+                <option>NEET UG</option>
+                <option>CUET UG</option>
+                <option>JMI Entrance</option>
+                <option>AMU Entrance</option>
+                <option>DU / IPU</option>
+                <option>DSEU / Hamdard</option>
+                <option>General Knowledge</option>
+                <option>Mathematics</option>
+              </select>
+            </div>
+            <div class="upload-group">
+              <label>Test Title *</label>
+              <input
+                type="text"
+                id="up_title"
+                placeholder="e.g. Mock Test #3 — June 2025"
+              />
+            </div>
+            <div class="upload-group">
+              <label>Question Paper (PDF)</label>
+              <input type="file" id="up_qpaper" accept=".pdf,.doc,.docx" />
+            </div>
+            <div class="upload-group">
+              <label>Solution Paper (PDF)</label>
+              <input type="file" id="up_sol" accept=".pdf,.doc,.docx" />
+            </div>
+            <div class="upload-group">
+              <label>Number of Questions</label>
+              <input type="number" id="up_qcount" placeholder="e.g. 90" />
+            </div>
+            <div class="upload-group">
+              <label>Test Date</label>
+              <input type="date" id="up_date" />
+            </div>
+          </div>
+          <button class="btn-upload" id="btnUpload">
+            📤 Send to WhatsApp &amp; Publish
+          </button>
+          <div class="upload-success" id="uploadSuccess">
+            ✅ Paper details sent to WhatsApp admin — will be published shortly!
+          </div>
+          <p class="upload-note">
+            Supported: PDF, DOC, DOCX. Files sent via WhatsApp to admin
+            (8092870350). Max size: 25 MB.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════ FOOTER ════ -->
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="logo-area">
+              <div class="fb">ABC</div>
+              <h3>ABC Institute of Science &amp; Commerce</h3>
+            </div>
+            <p>19 Years of excellence. Results tell our quality!</p>
+            <address>
+              161/25, Jogabai, Near Abidin Medical Centre,<br />Jamia Nagar,
+              Okhla, New Delhi – 110025
+            </address>
+          </div>
+          <div>
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="counseling.html">Career Counseling</a></li>
+              <li><a href="mocktest.html">Mock Test</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Enroll Now</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="tel:8076302065">📞 8076302065</a></li>
+              <li><a href="tel:9899129776">📞 9899129776</a></li>
+              <li>
+                <a href="https://wa.me/918092870350">💬 WA: 8092870350</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2025 ABC Institute of Science &amp; Commerce. All Rights Reserved.
+          </p>
+          <div class="wa-num">
+            <a href="https://wa.me/918092870350" target="_blank"
+              >💬 WhatsApp: 8092870350</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a
+      href="https://wa.me/918092870350"
+      target="_blank"
+      class="wa-float"
+      title="WhatsApp Us"
+    >
+      <svg viewBox="0 0 24 24">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+        />
+      </svg>
+    </a>
+
+    <!-- Scripts — all external, zero inline JS -->
+    <script src="js/main.js"></script>
+    <script src="js/mocktest.js"></script>
+  </body>
+</html>
