@@ -62,7 +62,7 @@ function submitToWhatsApp() {
 
   setTimeout(function () {
     window.open(
-      "https://wa.me/918092870350?text=" + encodeURIComponent(text),
+      "https://wa.me/918076302065?text=" + encodeURIComponent(text),
       "_blank",
     );
   }, 600);

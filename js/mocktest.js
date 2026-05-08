@@ -8722,7 +8722,7 @@ function wire(id, fn) {
 }
 function wa(text) {
   window.open(
-    "https://wa.me/918092870350?text=" + encodeURIComponent(text),
+    "https://wa.me/918076302065?text=" + encodeURIComponent(text),
     "_blank",
   );
 }
@@ -9093,7 +9093,7 @@ function shareResult() {
       (ce ? ce.textContent : "0") +
       "  Wrong: " +
       (we ? we.textContent : "0") +
-      "\n\nABC Institute, Jogabai, Jamia Nagar, New Delhi\nPh: 8076302065 | WA: 8092870350\n\nPlease guide me to improve!",
+      "\n\nABC Institute, Jogabai, Jamia Nagar, New Delhi\nPh: 8076302065 | WA: 8076302065\n\nPlease guide me to improve!",
   );
 }
 
